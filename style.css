@@ -14,15 +14,50 @@ header {
     font-family: 'Abril Fatface'
 }
 
-#newspaper-container {
+.newspaper-container {
     background-color: white;
     box-shadow: #ddd;
+    width: 90%;
+    border-radius: 0.5em;
 }
 
 nav {
-    background-color: #777;
+    color: #777;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    text-align: center;
 }
 
-main > p {
+main > h5 {
     color: #dd3232;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 0em;
+    padding: 0em 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+}
+
+.more-articles {
+    margin: 0em;
+    padding: 1em;
+    text-align: left;
+}
+section {
+    width: 49%;
+    display: inline-block;
+}
+
+main {
+    border-bottom: solid #777;
 }
